@@ -1,0 +1,113 @@
+*,html {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(255, 255, 255);
+
+}
+img{
+    border-radius: 3cm;
+}
+nav{
+    padding: 5mm;
+    background-color: rgb(129, 129, 129);
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 6rem;
+   
+}
+nav ul li a{
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(253, 251, 251);
+    font-family: fantasy;
+}
+.background{
+    background-color: rgb(237, 255, 163);
+    width: 100%;
+    height: 80vh;
+    display: flex;
+}
+.head{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 10vh;
+    overflow:hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2cm;
+}
+
+.left{
+    padding: 0cm;
+    background-image: url("/Screenshot_2024-08-11_163801-removebg-preview\ \(1\).png") ;
+    background-size: 600px;
+    width: 50%;
+    height: 60vh;
+    transform: translate(-10%,15%);
+}
+.backroundkanan{
+   background-image: url(/Screenshot\ 2024-09-06\ 191904.png);
+   background-size: cover;
+    width: 100%;
+    height: 80vh;
+    padding: 2cm;
+    display: flex;
+    
+}
+.right{
+display: flex;
+}
+
+@keyframes font {
+    from{font-size: 10px;}
+    to{font-size: 25px;}
+}
+@import url('https://fonts.googleapis.com/css2?family=Sevillana&display=swap');
+.paragraf{
+font-family: "Sevillana", cursive;
+  font-weight: 800;
+  font-style: normal;
+        background-color: purple;
+        border: 5px solid rgb(0, 0, 0);
+        border-radius: 2cm;
+        position: absolute;
+        display: flex;
+        color: rgb(0, 0, 0);
+            animation: font;
+            animation-play-state:big-size;
+            animation-duration: 2s;
+            justify-content: space-between;
+    padding: 5mm;
+    overflow: hidden;
+    font-size: 25px;
+   justify-content: space-around;
+   transform: translate(0%,35%);
+}
+@keyframes animasi {
+    from{margin-right:100%;}
+    to{margin-right: 0%;}
+}
+.fotoang{
+    background-image: url(/Screenshot\ 2024-09-06\ 200057.png);
+    width: 500px;
+    height: 330px;
+    background-position: bottom;
+    border-radius: 4cm;
+    border: 5px solid purple;
+    position: relative;
+    animation: animasi;
+    animation-play-state: running;
+    animation-duration: 3s;
+    justify-content: space-between;
+    transform: translate(90%,0%);
+}

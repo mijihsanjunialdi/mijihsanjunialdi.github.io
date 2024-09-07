@@ -1,0 +1,69 @@
+body{
+    background-color: rgb(0, 251, 255);
+}
+.instagram{
+    display: flex;
+    justify-content: space-between;
+    transform: translate(-30%,0%);
+    
+}
+.ihsan1{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .ihsan{
+    background:linear-gradient(120deg,rgb(43, 98, 226) 0%,rgb(255, 0, 195) 40%,rgb(255, 0, 0) 60%,orange);
+    width: 250px;
+    height: 250px;
+    border-radius: 1cm;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+   .ihsan3{
+    background:transparent;
+    width: 150px;
+    height: 150px;
+    border: 20px solid white;
+    border-radius: 1cm;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+   .border-radius{
+    border-top-right-radius: 80px 15px;
+   }
+   
+   .ihsan4{
+    width: 60px;
+    height: 60px;
+    border: 20px solid white;
+    border-radius: 8cm;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+   .ihsan5{
+    width: 0px;
+    height: 0px;
+    border: 15px solid white;
+    border-radius: 15cm;
+    transform: translate(170%,-170%)
+   }
+a{
+    display: flex;
+    font-family: fantasy ;
+    font-size: 20px;
+    list-style: none;
+    color: black;
+        background-color: aliceblue;
+        background-size: cover;
+        padding: 5mm;
+        border-radius: 1cm;
+    justify-content: center;
+    align-items: center;
+    transform: translate(-420%,535%);
+}
